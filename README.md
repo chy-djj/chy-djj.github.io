@@ -1,10 +1,10 @@
-# love_website
+# Web - Happy Birthday Joanna!
 
-This web is for my lovely girlfriend. Happy one year!
+ The web is made for my girlfriend. Do not copy the content without my permission. 
 
-**Coders can also be romantic! ^o^**
+ URL: lovejoanna.xyz
 
-This project is based on several repositories on gihub. Welcome secondary development.
 
-Demo address: [www.love.zhuyujie.org](http://love.zhuyujie.org)
-(The domain will expire on 2017/3)
+ Corresponding git:
+ 	1. ZeyuW/JoannaWeb: origin master
+	2. simplee server: publish master
