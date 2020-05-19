@@ -1,126 +1,200 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0027)http://itzoo.info/love.html -->
+<!DOCTYPE html>
+<!--<html lang="zh-CN">-->
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<style type="text/css">
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    html {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    body {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
+    <!--<meta charset="UTF-8">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Love</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/zepto.fullpage.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    
+    <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
+    <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-parser.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-jit.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./Love_files/love.js" charset="utf-8"></script>
+    
+</head>
 
-      background-color: #444;
-      color: #FFF;
-      letter-spacing: 4px;
-      font-size: 28px;
-      /*文字居中*/
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    @media screen and (orientation:portrait) {
-      body {
-        transform-origin: 0 0;
-        transform: rotateZ(90deg) translateY(-100%);
-      }
-    }
-    div {
-      background-color: #F00;
-      position: fixed;
-      height: 2px;
-      width: 100px;
-    }
-    div:nth-of-type(1){
-      top: 0;
-      left: 0;
-    }
-    div:nth-of-type(2){
-      top: 0;
-      right: 0;
-
-    }
-    div:nth-of-type(3){
-      bottom: 0;
-      left: 0;
-    }
-    div:nth-of-type(4){
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-        <title>Love</title>
-        
-        <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
-        <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex.min.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex-parser.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex-jit.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex-builderbase.min.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex-async.min.js"></script>
-        <script type="text/javascript" src="./Love_files/jscex-async-powerpack.min.js"></script>
-        <script type="text/javascript" src="./Love_files/functions.js" charset="utf-8"></script>
-        <script type="text/javascript" src="./Love_files/love.js" charset="utf-8"></script>
-      
-        
-        
-
-        
-    </head>
-    <body>
-        <div id="main">
-            <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器哟~</div>
-            <div id="wrap">
-               <div id="text">
-                    <div id="code">                 
-                    <span class="say">我的爱人，我会牵着你的手，走到满头白发的那一天，</span><br>
-                    <span class="say">我会守护你生命里的精彩，并陪伴你一路精彩下去。</span><br>
-                    <span class="say">你的幸福快乐，是我一生的追求。</span><br>
-                    <span class="say">我会每一天带着笑脸，和你说早安，</span><br>
-                     <span class="say">我会每一晚与你道声晚安再入梦乡，</span><br>
-                    <span class="say">我会带你去所有你想去的地方，</span><br>
-                    <span class="say">陪你闹看你笑</span><br>
-                    <span class="say">历经你生命中所有的点点滴滴。</span><br>
-                    <span class="say">我期待这一生与你一起走过，</span><br>
-                    <span class="say">我期待与你慢慢变老</span><br>
-                    <span class="say">等我们老到哪儿也去不了，</span><br>
-                    <span class="say">还能满载着一生的幸福快乐 ！</span><br>
-                    <br>
-                    <span class="say">我会为我们的未来撑起一片天空，</span><br>
-                     <span class="say">为我们的将来担负起一生的责任，</span><br>
-                      <span class="say">愿意为你去做每一件能让你开心快乐的事。</span><br>
-                       <span class="say">所有我们经历的点点滴滴，</span><br>
-                        <span class="say">都是我们一辈子最美的回忆。</span><br>
-                         <span class="say">我愿意爱你直到老去！</span><br>
-                   <br>
-                    <span class="say"><span class="space"></span> -- Yours, wuxia2001.</span>
+<body>
+    <div class="weixin" style="margin:0 auto;width:0px;height:0px;overflow:hidden;">
+        <img src="img/logo.jpg" width="300" height="300">
+    </div>
+    <div id="loading" class="loading">
+        <div class="loading-inner">
+            <span></span> <span></span> <span></span> <span></span> <span></span>
+        </div>
+    </div>
+    <div class="wp">
+        <div class="wp-inner">
+            <div class="page page0">
+                <div class="div1 js-animate animated" data-animate="zoomIn" data-time="0"></div>
+                <div class="div2 js-animate animated" data-animate="flipInY" data-time="1000"></div>
+                <div class="div3 text js-animate animated" data-animate="slideInUp" data-time="2000">
+                    此生有路 红尘恋雪
+                </div>
+            </div>
+            <div class="page page1">
+                <div id="mail" class="mail js-animate animated" data-animate="zoomIn" data-time="0"></div>
+                <div id="mail-text" class="text-wp">
+                    <div class="text">
+                        亲爱的：
+                    </div>
+                    <div class="text">
+                        我们已经携手走过了两年，生活不易，感谢有你的陪伴。
+                        今天，给你准备了一份特别的礼物！
                     </div>
                 </div>
-                
-                <div id="clock-box">
-                    <a href="http://blog.csdn.net/wuxia2001" target="_blank">@wuxia2001</a> 与 <a href="http://blog.csdn.net/wuxia2001" target="_blank">@月亮女</a> 在一起的
-                        <div id="clock"></div>
-                </div>
-                
-                <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <audio src="love.mp3" autoplay="autoplay"></audio>
-        </div>
-    
-    <script>
-    </script>
+            <div class="page page2">
+                <figure class="figure figure2-1 js-animate animated" data-animate="fadeInLeft" data-time="0">
+                    <div class="img img43 img2-1"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure2-2 js-animate animated" data-animate="fadeInLeft" data-time="500">
+                    <div class="img img34 img2-2"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure2-3 js-animate animated" data-animate="fadeInRight" data-time="1000">
+                    <div class="img img34 img2-3"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <div class="text js-animate animated" data-animate="fadeInLeft" data-time="1500">
+                    两年前的5月2号，为你披上婚纱，
+                    那一刻我感受到了幸福和责任！
+                </div>
+            </div>
+            <div class="page page3">
+                <figure class="figure figure2 js-animate animated" data-animate="fadeInDown" data-time="0">
+                    <div class="img img33 img2"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure1 js-animate animated" data-animate="rotateIn" data-time="500">
+                    <div class="img img33 img1"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure4 js-animate animated" data-animate="rotateIn" data-time="1000">
+                    <div class="img img33 img4"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure3 js-animate animated" data-animate="rotateIn" data-time="1500">
+                    <div class="img img33 img3"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <div class="text js-animate animated" data-animate="swing" data-time="2000">
+                    牵着你的手，走遍天涯海角，看过山川河流。无论在哪里，有你都不孤单。世界那么大，我想带你去看看~
+                </div>
+            </div>
+            <div class="page page4">
+                <figure class="figure figure1 js-animate animated" data-animate="flipInX" data-time="0">
+                    <div class="img img33 img1"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure3 js-animate animated" data-animate="flipInX" data-time="500">
+                    <div class="img img33 img3"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure5 js-animate animated" data-animate="flipInX" data-time="1000">
+                    <div class="img img33 img5"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure4 js-animate animated" data-animate="flipInY" data-time="1500">
+                    <div class="img img34 img4"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure2 js-animate animated" data-animate="flipInY" data-time="2000">
+                    <div class="img img34 img2"></div>
+                    <figcaption></figcaption>
+                </figure>
+                
+                <div class="text js-animate animated" data-animate="tada" data-time="2500">
+                    你喜欢小动物，我们先后收养了奶糖和皮皮，我的家庭地位也随着成员的增多而降低啦。你撸猫，我铲屎。。。你快乐，我就快乐^_^
+                </div>
+            </div>
+            <div class="page page5">
+                <figure class="figure figure1 js-animate animated" data-animate="rotateIn" data-time="0">
+                    <div class="img img33 img1"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure2 js-animate animated" data-animate="rotateInDownLeft" data-time="1000">
+                    <div class="img img33 img2"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure3 js-animate animated" data-animate="rotateInDownRight" data-time="1000">
+                    <div class="img img33 img3"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure4 js-animate animated" data-animate="rotateInUpLeft" data-time="1000">
+                    <div class="img img33 img4"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <figure class="figure figure5 js-animate animated" data-animate="rotateInUpRight" data-time="1000">
+                    <div class="img img33 img5"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <div class="text js-animate animated" data-animate="rubberBand" data-time="2000">
+                    吃胖了你就别跑了，我还要再学100道菜，一辈子给你做好吃的，让你做个幸福的吃货！
+                </div>
+            </div>
+            <div class="page page6">
+                <div class="div1 js-animate animated" data-animate="slideInDown" data-time="0"></div>
+                <div class="text time js-animate animated" data-animate="swing" data-time="1000">
+                    <div>我们结婚这么久了</div>
+                    <div id="ymd">xx年 xx月 xx天</div>
+                    <div id="hms">xx时 xx分 xx秒</div>
+                </div>
+                <div class="div2 js-animate animated" data-animate="slideInUp" data-time="0"></div>
+            </div>
+            
+            <div class="page page7">
+                <div id="main">
+                    <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器哟~</div>
+                    <div id="wrap">
+                       <div id="text">
+                            <div id="code">                 
+                            <span class="say">我的爱人，我会牵着你的手，走到满头白发的那一天，</span><br>
+                            <br>
+                            <span class="say">我会为我们的未来撑起一片天空，</span><br>
+                           <br>
+                            <span class="say"><span class="space"></span> -- Yours, wuxia2001.</span>
+                            </div>
+                        </div>
+                        
+                        <div id="clock-box">
+                            @wuxia2001 与 @月亮女 在一起的
+                                <div id="clock"></div>
+                        </div>
+                        
+                        <canvas id="canvas" width="1100" height="680"></canvas>
+                    </div>
+                    <!--<audio src="love.mp3" autoplay="autoplay"></audio>-->
+                </div>
+            </div>        
 
+        </div>
+    </div>
+    
+    <div id="music" class="music">
+        <a class="music-btn"></a>
+    </div>
+
+    <span class="start"><b></b></span>
+
+    <script src="js/zepto.js"></script>
+    <script src="js/zepto.fullpage.js"></script>
+    <script src="js/index.js"></script>
     <script>
     (function(){
         var canvas = $('#canvas');
@@ -279,23 +353,7 @@
 
         runAsync().start();
     })();
-    </script>
-
-  <script>
-    (function () {
-      function resize() {
-        var body = document.getElementsByTagName('body')[0];
-        var html = document.getElementsByTagName('html')[0];
-        var width = html.clientWidth;
-        var height =  html.clientHeight;
-        var max = width > height ? width : height;
-        var min = width > height ? height : width;
-        body.style.width = max + "px";
-        body.style.height = min + "px";
-      }
-      resize();
-      window.addEventListener("resize", resize)
-    })();
-  </script>
-
-</body></html>
+    </script>    
+    
+</body>
+</html>
