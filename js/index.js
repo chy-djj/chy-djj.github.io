@@ -78,7 +78,7 @@ window.onload = function() {
     if (bgAudio.loadStatus !== 'unload') {return;}
     playAudio();
 };
-
+/*
 function initTime() {
     var start = new Date(1462118400000);
 
@@ -129,3 +129,4 @@ function initTime() {
 }
 
 initTime();
+*/
