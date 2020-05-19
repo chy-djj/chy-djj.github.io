@@ -1,6 +1,14 @@
+function delay(time, cb) {
+    setTimeout(function () {
+        cb();
+    }, time);
+}
+
+
 var bgAudio = new Audio();
 bgAudio.loadStatus = 'unload';
 bgAudio.loop = true;
+
 function loadAudio(audio, url, callback) {
     audio.src = url;
     audio.load();
@@ -45,6 +53,8 @@ $('body').one('touchstart', function () {
 });
 window.onload = function() {
     $('#loading').hide();
+
     if (bgAudio.loadStatus !== 'unload') {return;}
     playAudio();
 };
+
